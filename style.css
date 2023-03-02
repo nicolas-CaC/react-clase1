@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.grid {
+    display: flex;
+    height: 100vh;
+    /* display: grid; */
+    /* grid-template-columns: 20% 80%;
+    grid-template-rows: 10% 90%;
+    grid-template-areas:
+        "a b"
+        "c d"; */
+
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    background-color: bisque;
+    padding: 50px;
+    border: 10px dashed brown;
+    box-sizing: border-box;
+}
